@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -6,33 +6,43 @@ const Footer = () => {
     <nav className="container mx-auto px-4">
       <ul className="flex flex-wrap items-center justify-center gap-2 text-sm">
         <li>
-          <a href="/" className="hover:text-red-600">
+            <Link to="/">
+          <a className="hover:text-red-600">
             Home
           </a>
+          </Link>
         </li>
         <li className="hidden md:block text-gray-400">|</li>
         <li>
-          <a href="/contact" className="hover:text-red-600">
+          <Link to="/Contacts">
+          <a  className="hover:text-red-600">
             Contact
           </a>
+          </Link>
         </li>
         <li className="hidden md:block text-gray-400">|</li>
         <li>
-          <a href="/privacy" className="hover:text-red-600">
+        <Link to="/Privacy">
+          <a  className="hover:text-red-600">
             Privacy
           </a>
+          </Link>
         </li>
         <li className="hidden md:block text-gray-400">|</li>
         <li>
-          <a href="/terms" className="hover:text-red-600">
+        <Link to="/Terms">
+          <a  className="hover:text-red-600">
             Terms
           </a>
+          </Link>
         </li>
         <li className="hidden md:block text-gray-400">|</li>
         <li>
-          <a href="/report" className="text-red-600 hover:text-red-700">
-            Report Trafficking
+        <Link to="/Traffic">
+          <a  className="hover:text-red-600 text-">
+            Report Traffic
           </a>
+          </Link>
         </li>
         <li className="hidden md:block text-gray-400">|</li>
         <li>

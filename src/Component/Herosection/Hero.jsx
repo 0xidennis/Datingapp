@@ -26,7 +26,7 @@ const Hero = () => {
 
           {/* Note Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">Note</h2>
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">Note</h2>
             <div className="space-y-2 px-4 text-gray-700">
               <ul className="list-inside list-disc space-y-2 text-justify">
                 <li>Payment is refundable if service isn't rendered</li>
@@ -39,7 +39,7 @@ const Hero = () => {
 
           {/* Collection Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
               Collection and Use of Personal Information
             </h2>
             <div className="space-y-4 px-4 text-gray-700 text-justify">
@@ -72,7 +72,7 @@ const Hero = () => {
 
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
               Disclosure of Personal Information to Third Parties
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
@@ -93,7 +93,7 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
             Disclosure in Other Circumstances
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
@@ -127,7 +127,7 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
             Assortment of Non-Personal Information Using Cookies
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
@@ -162,7 +162,7 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
             Communication from the Site/Opt-Out
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
@@ -184,7 +184,7 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
             Correction/Update of Personal Information
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
@@ -201,7 +201,7 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
             Contact Us:
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
@@ -212,7 +212,7 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
             Children
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
@@ -228,7 +228,7 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
             Links to Other sites
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
@@ -243,7 +243,7 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
             E-Commerce and Our Secure Server
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
@@ -266,7 +266,7 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem]g font-semibold text-white pl-3">
             Policy Changes and Acceptance
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
@@ -287,7 +287,7 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
             More Questions?
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
