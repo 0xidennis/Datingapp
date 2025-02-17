@@ -1,16 +1,16 @@
-
+import './Siderbar.css'
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
     <div
-    className={`fixed z-50 inset-0 bg-black bg-opacity-50 transition-opacity ${
-      isOpen ? "opacity-70 visible z-100" : "opacity-0 invisible"
+    className={`fixed  inset-0 bg-[#7F7F7F] bg-opacity-50 transition-opacity ${
+      isOpen ? "opacity-60 visible " : "opacity-0 invisible"
     }`}
     onClick={toggleSidebar}
   >
     <div
-      className={`fixed left-0 top-0 h-full w-64 bg-white shadow-lg transform ${
-        isOpen ? "translate-x-0" : "-translate-x-full"
+      className={`fixed left-0 top-0 h-full w-64 bg-white bg-opacity-100 shadow-lg transform   z-50${
+        isOpen ? " opacity-100 translate-x-0 " : "-translate-x-full"
       } transition-transform`}
       onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside
     >

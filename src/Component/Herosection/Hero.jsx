@@ -5,17 +5,17 @@ const Hero = () => {
     <div div className="min-h-screen  bg-white">
        
          {/* Main Content */}
-      <main className="max-w-6xl container mx-auto px-4 py-6 md:py-8">
-      <h1 className="text-[2rem]">Escorts Affair Management</h1>
+      <main className="max-w-6xl container mx-auto px-4 py-6 md:py-8 mt-[-30px]">
+      <h1 className="text-[1.3rem] text-extrabold">Escorts Affair Management</h1>
           {/* Procedure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-pink-400 p-1 text-lg font-semibold text-white">
-              How to get a secured meeting number
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
+            How to get a secured meeting number for an escort
             </h2>
             <div className="space-y-4 px-4">
               <h3 className="font-semibold">Procedure to get meeting number</h3>
-              <ul className="list-inside list-disc space-y-2 text-gray-700">
-                <li>Click on the chat icon below to start a chat with our live agent</li>
+              <ul className="list-inside list-disc space-y-2 text-gray-700 text-justify font-[10px]">
+                <li >Click on the chat icon below to start a chat with our live agent</li>
                 <li>Get your email verified by our chat agent</li>
                 <li>Provide the email address so it can be verified by agent</li>
                 <li>Get a secured booking number from our live chat agent</li>
@@ -26,9 +26,9 @@ const Hero = () => {
 
           {/* Note Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-pink-400 p-1 text-lg font-semibold text-white">Note</h2>
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">Note</h2>
             <div className="space-y-2 px-4 text-gray-700">
-              <ul className="list-inside list-disc space-y-2">
+              <ul className="list-inside list-disc space-y-2 text-justify">
                 <li>Payment is refundable if service isn't rendered</li>
                 <li>Payment is received after service</li>
                 <li>Do not share meeting number till after service has been rendered</li>
@@ -39,10 +39,10 @@ const Hero = () => {
 
           {/* Collection Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-pink-400 p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
               Collection and Use of Personal Information
             </h2>
-            <div className="space-y-4 px-4 text-gray-700">
+            <div className="space-y-4 px-4 text-gray-700 text-justify">
               <p className="leading-relaxed">
                 We collect personal information regarding you when you engage in commerce transactions on the Site,
                 utilize the Site's products or services, request information or materials, create or update account
@@ -65,18 +65,18 @@ const Hero = () => {
                 </li>
                 <li>Enforce the Terms of Use (collectively, the "Activities")</li>
               </ul>
-              <p className="leading-relaxed">You authorize the Site to transmit email to you to react to your communications and administer Activities. If you select to receive mobile notifications, you authorize and agree totally that the Site may send texting to your 
+              <p className="leading-relaxed text-justify">You authorize the Site to transmit email to you to react to your communications and administer Activities. If you select to receive mobile notifications, you authorize and agree totally that the Site may send texting to your 
                 cellular phone, and you will result in any message or data charges that'll apply..</p>
             </div>
           </section>
 
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-pink-400 p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
               Disclosure of Personal Information to Third Parties
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-justify">
               We may disclose your individual information to agents and operators under confidentiality or 
               similar agreements, including shippers, vendors, payment processors, and advertisers, who we 
               believe reasonably need ahead into contact with this information: (i) to offer products or 
@@ -93,11 +93,11 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-pink-400 p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
             Disclosure in Other Circumstances
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-justify">
               We might also disclose your name, email address, 
               telephone numbers, or other information regarding you, 
               including personal information if (i) required to take action by law, 
@@ -127,11 +127,11 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-pink-400 p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
             Assortment of Non-Personal Information Using Cookies
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-justify">
               We and certain service providers operating on our behalf collect information 
               regarding your activity on our Site using tracking technologies such as for 
               instance cookies. This tracking data is employed for many purposes, including, 
@@ -162,11 +162,11 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-pink-400 p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
             Communication from the Site/Opt-Out
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-justify">
               From time to time, we might send you information with announcements and 
               updates in regards to the Site and your account. You might elect to opt-out 
               of ongoing e-mail communication from us, such as for instance newsletters, 
@@ -184,11 +184,11 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-pink-400 p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
             Correction/Update of Personal Information
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-justify">
               If your own personal information changes, you could review/correct/update your own personal 
               information previously provided at any time by sending us a message at 
               admin@EscortsAffair.ch.You may also have your own personal profile data deleted from our 
@@ -201,7 +201,7 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-pink-400 p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
             Contact Us:
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
@@ -212,11 +212,11 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-pink-400 p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
             Children
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-justify">
               The Site is not intended for children under the age of 13 nor does the Site knowingly 
               collect personal information from children under 13. The Site doesn't orient this Site 
               toward children or target them as an audience, nor does it screen them from utilising the 
@@ -228,11 +228,11 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-pink-400 p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
             Links to Other sites
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-justify">
               This Site provides links and pointers to The websites maintained by other organizations. 
                Site provides these links as a convenience to users, but it doesn't operate, control or 
                endorse such sites. The Site also disclaims any responsibility for the info on those sites 
@@ -243,11 +243,11 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-pink-400 p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
             E-Commerce and Our Secure Server
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-justify">
               We recognize that storing data in a safe manner is important. We store personal information 
               using industry standard, reasonable and technically feasible, physical, technical and 
               administrative safeguards against foreseeable risks, such as for example unauthorized access. 
@@ -266,11 +266,11 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-pink-400 p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
             Policy Changes and Acceptance
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-justify">
               The Privacy Policy might be revised from time to time as we add new features and services, as laws change, 
               and as industry privacy and security best practices evolve. We display a highly effective date 
               on top of the left corner of the Privacy Policy so that it is likely to be easier for you 
@@ -287,11 +287,11 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-pink-400 p-1 text-lg font-semibold text-white">
+            <h2 className="mb-4 rounded-md bg-[#db7093] p-1 text-lg font-semibold text-white">
             More Questions?
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-justify">
               When you yourself have any questions about this Privacy Policy, e-mail them to 
               support@EscortsAffair.com, and 
               make sure to indicate the precise site you're visiting and the type of one's question 
@@ -300,10 +300,10 @@ const Hero = () => {
             </div>
           </section>
       </main>
-        <div className="max-w-5xl mx-auto p-6 bg-white  rounded-lg">
-      <h2 className="text-xl font-bold mb-4">Finding the right escorts
+        <div className="max-w-5xl mx-auto p-6 bg-white  rounded-lg mt-[-50px]">
+      <h2 className="text-l font-semibold mb-4">Finding the right escorts
       </h2>
-      <p className="text-gray-700 mb-4">
+      <p className="text-gray-700 mb-4 text-justify">
       Every day, people are looking for companionship. They want someone to hang out with, 
       chill and probably spend meaningful time together. Think of it: there are many ways to 
       get people like this — escorts. You may hit someone up on social media, emails, or websites 
@@ -318,10 +318,10 @@ const Hero = () => {
 
       </p>
     
-      <h2 className="text-xl font-bold mb-4">
+      <h2 className="text-l font-semibold mb-4">
         What we offer
         </h2>
-      <p className="text-gray-700 mb-4">
+      <p className="text-gray-700 mb-4 text-justify">
       It’s a whole new experience with EscortsAffair. There are no complications. 
       It serves well whether you’re lonely 
       or looking for someone to spend quality time with.
@@ -346,20 +346,20 @@ const Hero = () => {
       </p>
   
 
-      <h2 className="text-xl font-bold mb-4">Things to have in mind
+      <h2 className="text-l font-semibold mb-4">Things to have in mind
        </h2>
       <p className="text-gray-700 mb-4">
         There are two things to have in mind when working with girls:
 
       </p>
-      <ul className="list-disc list-inside text-gray-700">
+      <ul className="list-disc list-inside text-gray-700 text-justify">
         <li>First, note that clients and escorts spend time together in exchange 
           for payment — not sex or anything — just time only.</li>
         <li>Secondly, you probably are accessing these local ads because you stay within the region. 
           Taking the next step by clicking through all depends on you.</li>
       </ul>
-      <h2 className="text-xl font-bold mb-4">Types of services</h2>
-      <p className="text-gray-700 mb-4">
+      <h2 className="text-l font-semibold mb-4">Types of services</h2>
+      <p className="text-gray-700 mb-4 text-justify">
       Escort services vary, depending on both the customers and personnel in the local ads. Keep in 
       mind that knowing how to make
        your approach profoundly matters. Another thing is the agreed spot to meet.
@@ -369,33 +369,33 @@ const Hero = () => {
         know each other, right? Next thing; you’re planning on meeting. This is where the services come in, and they are as follows:
       </p>
       
-      <h2 className="text-xl font-bold mb-4">Outcall service</h2>
-      <p className="text-gray-700 mb-4">
+      <h2 className="text-l font-semibold mb-4">Outcall service</h2>
+      <p className="text-gray-700 mb-4 text-justify">
       After an escort agent posts an ad, say, you clicked through to communicate with 
       someone that attracts you. You then ask if she would like to come over. If she s
       ays yes, then you are the host, and she’s rendering an out-call service.
 
       </p>
       
-      <h2 className="text-xl font-bold mb-4">Incall service</h2>
-      <p className="text-gray-700 mb-4">
+      <h2 className="text-l font-semibold mb-4">Incall service</h2>
+      <p className="text-gray-700 mb-4 text-justify">
       It’s the other way round here. Your companion may feel the need to stay in his/her location 
       because of some reason. Hence, you have no other option than to do the visiting. It may be a 
       bar, hotel, lounge, or amusement park. If your consort 
       decides the location, and you have to go over to her side, it’s called an incall service.
       </p>
       
-      <h2 className="text-xl font-bold mb-4">Specialties</h2>
-      <p className="text-gray-700 mb-4">
+      <h2 className="text-l font-semibold mb-4">Specialties</h2>
+      <p className="text-gray-700 mb-4 text-justify">
         It is essential to know how this works. Who knows what your expectations are?
         Maybe you need a companion just to talk things out and ease the burden in your mind.
         Or perhaps, you’re looking to meet new friends — local ads can help know residents around your region.
       </p>
-      <p className="text-gray-700 mb-4">
+      <p className="text-gray-700 mb-4 text-justify">
         If at all you want to spend quality time with your company, you need not worry.
         Our website helps in the following areas:
       </p>
-      <ul className="list-disc list-inside text-gray-700">
+      <ul className="list-disc list-inside text-gray-700 text-justify">
         <li>Maintaining interpersonal relationships with clients.</li>
         <li>Surfing and acquiring useful information for emergency use.</li>
         <li>Communicating with external individuals, people outside the organization.
@@ -407,13 +407,13 @@ const Hero = () => {
             is using what works and eliminating what doesn’t. We will continue to maintain
             the same approach towards an appointment.</li>
       </ul>
-      <h2 className="text-xl font-bold mb-4">What are the traits to find in display ads?</h2>
-      <p className="text-gray-700 mb-4">
+      <h2 className="text-l font-semibold mb-4">What are the traits to find in display ads?</h2>
+      <p className="text-gray-700 mb-4 text-justify">
       A lot, to be precise. Here at EscortsAffair, you don’t just find random peers to match. 
       Here are the traits to expect:
 
       </p>
-      <ul className="list-disc list-inside text-gray-700">
+      <ul className="list-disc list-inside text-gray-700 text-justify">
         <li>Clarity: Be sure to converse clearly with any of our assigned escorts.</li>
         <li>Oral expression: Get a sense of feeling when receiving a response from the peered personnel.</li>
         <li>Oral comprehension: this is one skill every escort must have — the ability to collect and 
@@ -434,7 +434,7 @@ const Hero = () => {
       <p className="text-gray-700 mb-4">
         Website functions
       </p>
-      <p className="text-gray-700 mb-4">
+      <p className="text-gray-700 mb-4 text-justify">
       This site allows agents to post photos and videos of young and mostly independent
        individuals looking to socialize. No doubt, people need companionship. Some go through 
        depression; others need advice or someone for an event. This platform created spaces for 
@@ -444,7 +444,7 @@ const Hero = () => {
       <p className="text-gray-700 mb-4">
       Conclusion
       </p>
-      <p className="text-gray-700 mb-4">
+      <p className="text-gray-700 mb-4 text-justify">
       EscortsAffair remains a top-notch escort directory, and it offers tons of satisfactory services. 
       Companionship can never go sideways with us. Look in our list of local ads to select your preference. Guess what? 
       You have hundreds of them to choose from, so choose your favorite while they are available.
