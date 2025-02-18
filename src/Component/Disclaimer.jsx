@@ -22,7 +22,7 @@ const Disclaimer = () => {
     if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+    <div className="fixed inset-0 flex items-center justify-center bg-[gray] bg-opacity-50">
     <div className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full">
       <h2 className="text-lg font-semibold mb-4">Disclaimer</h2>
       <p className="text-sm text-gray-700">

@@ -15,10 +15,10 @@ import Disclaimer from "./Component/Disclaimer"
 const App = () => {
   const [accepted, setAccepted] = useState(false);
   return (
-    <div>
-     
+    <div className="w-full overflow-x-hidden">
+     {!accepted && <Disclaimer onAccept={() => setAccepted(true)} />}
 <BrowserRouter>
-{!accepted && <Disclaimer onAccept={() => setAccepted(true)} />}
+
 <Header/>
         <Routes>
           <Route path="/" element={<Home />} />
