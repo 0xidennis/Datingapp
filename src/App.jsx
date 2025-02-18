@@ -7,14 +7,18 @@ import Traffic from "./Pages/Traffic"
 import Header from "./Static/Header"
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Footer from "./Static/Footer"
+import { useState } from "react";
+import Disclaimer from "./Component/Disclaimer"
 
 
 
 const App = () => {
+  const [accepted, setAccepted] = useState(false);
   return (
     <div>
-  
+     
 <BrowserRouter>
+{!accepted && <Disclaimer onAccept={() => setAccepted(true)} />}
 <Header/>
         <Routes>
           <Route path="/" element={<Home />} />
