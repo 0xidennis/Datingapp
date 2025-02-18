@@ -3,8 +3,8 @@ import './Siderbar.css'
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
     <div
-    className={`fixed  inset-0 bg-[#7F7F7F] bg-opacity-50 transition-opacity ${
-      isOpen ? "opacity-60 visible " : "opacity-0 invisible"
+    className={`fixed  inset-0 bg-[#242323] bg-opacity-50 transition-opacity ${
+      isOpen ? "opacity-90 visible " : "opacity-0 invisible"
     }`}
     onClick={toggleSidebar}
   >
@@ -24,10 +24,10 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         <button className="w-full bg-pink-600 text-white py-2 rounded">
           Post Ad
         </button>
-        <ul className="space-y-2">
-          <li className="p-2 hover:bg-gray-200 cursor-pointer">Home</li>
-          <li className="p-2 hover:bg-gray-200 cursor-pointer">Login</li>
-          <li className="p-2 hover:bg-gray-200 cursor-pointer">Sign Up</li>
+        <ul className="">
+          <li className="p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b ">Home</li>
+          <li className="p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b">Login</li>
+          <li className="p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b">Sign Up</li>
         </ul>
       </div>
     </div>
