@@ -2,17 +2,33 @@ import React, { useState } from "react";
 import { ChevronLeft, Menu, Paperclip, Smile } from "lucide-react"
 import { IoSend } from "react-icons/io5";
 import { FaThumbsUp, FaThumbsDown } from "react-icons/fa";
+import SupportChat from "./SupportChat";
+import { motion } from "framer-motion";
 
 const Chat = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   return (
-    <div className="w-full h-[85vh] max-w-md mx-auto  rounded-lg overflow-hidden">
+    <div className="w-full h-[85vh] max-w-md mx-auto  rounded-lg overflow-hidden lg:h-[60vh]">
     {/* Header */}
     <div className="bg-emerald-500 p-4 flex items-center justify-between text-white">
-      <button variant="ghost" size="icon" className="text-white hover:text-white/90">
+    <div>
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="text-white hover:text-white/90"
+      >
         <ChevronLeft className="h-5 w-5" />
       </button>
+
+      <motion.div
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ y: isOpen ? 0 : -100, opacity: isOpen ? 1 : 0 }}
+        transition={{ type: "spring", stiffness: 300, damping: 20 }}
+        className="absolute top-0 left-0 w-full"
+      >
+        {isOpen && <SupportChat />}
+      </motion.div>
+    </div>
       <div>
         <div>
           <button  className="p-2 rounded hover:bg-gray-200 text-white hover:text-white/90" 
@@ -45,11 +61,12 @@ const Chat = () => {
           </p>
         </div>
       </div>
-      <div className="text-center text-sm text-red-500 my-2">Secured escort booking page</div>
+
     </div>
 
     {/* Input Area */}
     <div className="p-4 bg-white ">
+    <div className="text-center text-sm text-red-500 my-2">Secured escort booking page</div>
       <div className="flex items-center gap-2">
         <input placeholder="Type here and press enter..." className="flex-1" />
         {/* <button className="p-2 rounded hover:bg-gray-200" aria-label="Thumbs Down">
