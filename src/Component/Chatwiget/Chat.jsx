@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { ChevronLeft, Menu, Paperclip, Smile } from "lucide-react"
+import { IoSend } from "react-icons/io5";
+import { FaThumbsUp, FaThumbsDown } from "react-icons/fa";
 
 const Chat = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -50,12 +52,22 @@ const Chat = () => {
     <div className="p-4 bg-white ">
       <div className="flex items-center gap-2">
         <input placeholder="Type here and press enter..." className="flex-1" />
+        {/* <button className="p-2 rounded hover:bg-gray-200" aria-label="Thumbs Down">
+  <FaThumbsDown className="h-5 w-5 text-red-500 " />
+</button> */}
+        <button className="p-2 rounded hover:bg-gray-200" aria-label="Thumbs Up">
+  <FaThumbsUp className="h-5 w-5 text-green-500" />
+</button>
         <button variant="ghost" size="icon">
           <Smile className="h-5 w-5 text-gray-500" />
         </button>
         <button variant="ghost" size="icon">
           <Paperclip className="h-5 w-5 text-gray-500" />
         </button>
+
+<button className="p-2  text-[green] rounded hover:bg-blue-600" aria-label="Send message">
+  <IoSend className="h-5 w-5" />
+</button>
       </div>
       
     </div>
