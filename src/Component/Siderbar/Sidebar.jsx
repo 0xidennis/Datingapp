@@ -9,7 +9,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
     onClick={toggleSidebar}
   >
     <div
-      className={`fixed left-0 top-0 h-full w-64 bg-white bg-opacity-100 shadow-lg transform   z-50${
+      className={`fixed left-0 top-0 h-full w-64 bg-[#ffff] bg-opacity-100 shadow-lg transform  z-[500]${
         isOpen ? " opacity-100 translate-x-0 " : "-translate-x-full"
       } transition-transform`}
       onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside
