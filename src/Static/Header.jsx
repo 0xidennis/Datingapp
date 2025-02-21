@@ -10,7 +10,7 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="top-0 z-50 max-w-6xl  bg-white items-center mx-auto ">
+    <header className="top-0 z-50 max-w-6xl  bg-white items-center mx-auto justify-center">
       <div className="container flex h-16 items-center justify-between px-4">
         {/* Mobile Menu Button */}
         <button className="lg:flex " aria-label="Open menu"  onClick={toggleSidebar}>
@@ -26,7 +26,7 @@ const Header = () => {
         </div>
 
         {/* Right side navigation */}
-        <div className="flex  flex-col-reverse md:flex-row items-center gap-7 mt-14 lg:gap-4 lg:mt-6">
+        <div className="flex  flex-col-reverse md:flex-row items-center gap-7 mt-14 lg:gap-4 lg:mt-2">
           <button href="/adult-seo" className=" border-b text-[0.73rem] text-pink-600 hover:text-pink-700 md:w-auto lg:text-[0.8rem]">
             Adult SEO
           </button>

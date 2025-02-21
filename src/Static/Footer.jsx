@@ -6,34 +6,34 @@ const Footer = () => {
       <nav className="container mx-auto px-4">
         <ul className="flex flex-wrap items-center justify-center gap-2 text-sm">
           <li>
-            <Link to="/" className="hover:text-red-600">Home</Link>
+            <Link to="/" className="hover:text-amber-300 text-red-600">Home</Link>
           </li>
           
-          <li className="hidden md:block text-gray-400">|</li>
+          <li className=" md:block text-black">|</li>
           <li>
-            <Link to="/Contacts" className="hover:text-red-600">Contact</Link>
+            <Link to="https://www.escortsaffair.com/centre/terms/contact" className="hover:text-amber-300 text-red-600">Contact</Link>
           </li>
 
-          <li className="hidden md:block text-gray-400">|</li>
+          <li className=" md:block text-black">|</li>
           <li>
-            <Link to="/privacy" className="hover:text-red-600">Privacy</Link>
+            <Link to="https://www.escortsaffair.com/centre/terms/privacy" className="hover:text-amber-300 text-red-600">Privacy</Link>
           </li>
 
-          <li className="hidden md:block text-gray-400">|</li>
+          <li className=" md:block text-black">|</li>
           <li>
-            <Link to="/Terms" className="hover:text-red-600">Terms</Link>
+            <Link to="https://www.escortsaffair.com/centre/terms/terms" className="hover:text-amber-300 text-red-600">Terms</Link>
           </li>
 
-          <li className="hidden md:block text-gray-400">|</li>
+          <li className=" md:block text-black">|</li>
           <li>
-            <Link to="/Traffic" className="hover:text-red-600">Report Traffic</Link>
+            <Link to="https://www.escortsaffair.com/centre/terms/report" className="hover:text-amber-300 text-red-600">Report Traffic</Link>
           </li>
 
-          <li className="hidden md:block text-gray-400">|</li>
+          <li className=" md:block text-black">|</li>
           <li>
             <span className="text-gray-600">
-              © 2024{" "}
-              <a href="/" className="text-red-600 hover:text-red-700">
+              © 2022{" "}
+              <a href="/" className="text-red-600 hover:text-amber-300">
                 EscortsAffairManagement.com
               </a>
             </span>

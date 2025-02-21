@@ -5,7 +5,7 @@ const Hero = () => {
     <div div className="min-h-screen  bg-white">
        
          {/* Main Content */}
-      <main className="max-w-6xl container mx-auto px-4 py-6 md:py-8 mt-[28px]">
+      <main className="max-w-6xl container mx-auto px-4 py-6 md:py-8 mt-[28px] lg:mt-auto">
       <h1 className="text-[1.2rem] font-semibold">Escorts Affair Management</h1>
           {/* Procedure Section */}
           <section className="mb-8">
@@ -284,95 +284,96 @@ const Hero = () => {
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
               <p className="leading-relaxed text-justify text-sm">
-              The Privacy Policy might be revised from time to time as we add new features and services, as laws change, 
-              and as industry privacy and security best practices evolve. We display a highly effective date 
-              on top of the left corner of the Privacy Policy so that it is likely to be easier for you 
-              really to know when there has been a change. Accordingly, you should check the Privacy Policy 
-              on a regular basis for the most current privacy practices. Each time you access, use or look 
-              at Site, you signify your acceptance of the then-current changes to the Privacy Policy signing 
-              up to your personal information collected by us on and from the effective date of such changes.
+              The Privacy Policy might be revised from time to time as we 
+              add new features and services, as laws change, and as industry 
+              privacy and security best practices evolve. We display a highly 
+              effective date on top of the left corner of the Privacy Policy so 
+              that it is likely to be easier for you really to know when there has 
+              been a change. Accordingly, you should check the Privacy Policy on a 
+              regular basis for the most current privacy practices. Each time you access, 
+              use or look at Site, you signify your acceptance of the then-current changes 
+              to the Privacy Policy signing up to your personal information collected by us 
+              on and from the effective date of such changes.
 
-            Any changes in the Privacy Policy can take effect upon posting and apply simply to information 
-            collected from
-            you on and after Last Revised date, unless we provide notice or have other communications with you.
+               Any changes in the Privacy Policy can take effect upon posting and apply simply to 
+               information collected from you on and after Last Revised date, unless we provide 
+               notice or have other communications with you.
               </p>
             </div>
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
+            <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem] font-semibold text-white pl-3">
             More Questions?
             </h2>
-            <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed text-justify">
-              When you yourself have any questions about this Privacy Policy, e-mail them to 
-              support@EscortsAffair.com, and 
-              make sure to indicate the precise site you're visiting and the type of one's question 
-              or concern.
+            <div className=" px-4 text-gray-700">
+              <p className="leading-relaxed text-justify text-sm">
+              When you yourself have any questions about this Privacy Policy, 
+              e-mail them to <span className="text-blue-500 hover:text-amber-300"><a href="">support@EscortsAffair.com</a></span>, and make sure to indicate 
+              the precise site you're visiting and the type of one's question or concern.
               </p>
             </div>
           </section>
       </main>
         <div className="max-w-5xl mx-auto p-6 bg-white  rounded-lg mt-[-50px]">
-      <h2 className="text-l font-semibold mb-4">Finding the right escorts
+      <h2 className="text-l text-gray-600 font-semibold mb-4 ">Finding the right escorts
       </h2>
-      <p className="text-gray-700 mb-4 text-justify">
-      Every day, people are looking for companionship. They want someone to hang out with, 
-      chill and probably spend meaningful time together. Think of it: there are many ways to 
-      get people like this — escorts. You may hit someone up on social media, emails, or websites 
-      for hangouts. And the person may feel the need during that period.
+      <p className="text-gray-500 mb-4 text-justify text-sm">
+      Every day, people are looking for companionship. They want someone to 
+      hang out with, chill and probably spend meaningful 
+      time together. Think of it: there are many ways to get people like this
+       — escorts. You may hit someone up on social media, emails, or websites 
+       for hangouts. And the person may feel the need during that period.
 
-       Here’s where EscortsAffair comes in: Our platform has in stock photos and videos from young 
-       and good-looking individuals. We allow the display of local ads on our website.
+       Here’s where EscortsAffair comes in: Our platform has in stock photos and videos 
+      from young and good-looking individuals. We allow the display of local ads on our
+      website.
 
-        With new visitors coming in daily, this site creates space for socializing with others. 
-        It’s just like you’re hitting someone up for his or her time because you want to get 
-        familiar with each other.
+      With new visitors coming in daily, this site creates space for socializing with 
+       others. It’s just like you’re hitting someone up for his or her time because you want to get familiar with each other.
 
       </p>
     
-      <h2 className="text-l font-semibold mb-4">
+      <h2 className="text-l font-semibold mb-4 text-gray-600">
         What we offer
         </h2>
-      <p className="text-gray-700 mb-4 text-justify">
-      It’s a whole new experience with EscortsAffair. There are no complications. 
-      It serves well whether you’re lonely 
-      or looking for someone to spend quality time with.
+      <p className="text-gray-500 mb-4 text-justify text-sm">
+      It’s a whole new experience with EscortsAffair. There are no complications. It serves well whether you’re lonely or looking for someone to spend quality time with.
 
-       To get the best experience, you need to know about the different code-words. 
-       Gfe (Girlfriend experience) is a clear example. “Can I get to know you?” “Let’s get 
-        comfortable.” These are terms used to communicate with escorts.
+To get the best experience, you need to know about the different code-words.
+ Gfe (Girlfriend experience) is a clear example. “Can I get to know you?” 
+“Let’s get comfortable.” These are terms used to communicate with escorts.
 
-        Fortunately, you can benefit so much from ads posted as photos and videos on our website — 
-        numerous to be precise.
+Fortunately, you can benefit so much from ads posted as photos and videos on our 
+website — numerous to be precise.
 
-        The following benefits come with striking a meeting using our escort directory:
+The following benefits come with striking a meeting using our escort directory:
 
-        No hassle
-        Yes, you can match mature escorts using our platform. EscortsAffair displays ads 
-        in different categories. Just look at it this way: “Mr. X craves to ease his mind from work, 
-        so he decided to go online and check websites for ads.”
+No hassle
+Yes, you can match mature escorts using our platform. EscortsAffair displays ads 
+in different categories. Just look at it this way: “Mr. X craves to ease his mind 
+from work, so he decided to go online and check websites for ads.”
 
-        You really don’t need to go through any complicated dealings. If the profile you visit is 
-        splendid enough that you feel like seeing the person, you can start an honest conversation 
-        and discuss your motive immediately.
+You really don’t need to go through any complicated dealings. If the profile you 
+visit is splendid enough that you feel like seeing the person, you can start an 
+honest conversation and discuss your motive immediately.
       </p>
   
 
-      <h2 className="text-l font-semibold mb-4">Things to have in mind
+      <h2 className="text-l font-semibold mb-4 text-gray-600">Things to have in mind
        </h2>
-      <p className="text-gray-700 mb-4">
+      <p className="text-gray-500 mb-4 text-sm">
         There are two things to have in mind when working with girls:
 
       </p>
-      <ul className="list-disc list-inside text-gray-700 text-justify">
+      <ul className="list-disc list-inside text-gray-500 text-justify text-sm">
         <li>First, note that clients and escorts spend time together in exchange 
           for payment — not sex or anything — just time only.</li>
         <li>Secondly, you probably are accessing these local ads because you stay within the region. 
           Taking the next step by clicking through all depends on you.</li>
       </ul>
-      <h2 className="text-l font-semibold mb-4">Types of services</h2>
-      <p className="text-gray-700 mb-4 text-justify">
+      <h2 className="text-l font-semibold mb-4 text-gray-600">Types of services</h2>
+      <p className="text-gray-500 mb-4 text-justify text-sm">
       Escort services vary, depending on both the customers and personnel in the local ads. Keep in 
       mind that knowing how to make
        your approach profoundly matters. Another thing is the agreed spot to meet.
@@ -382,33 +383,33 @@ const Hero = () => {
         know each other, right? Next thing; you’re planning on meeting. This is where the services come in, and they are as follows:
       </p>
       
-      <h2 className="text-l font-semibold mb-4">Outcall service</h2>
-      <p className="text-gray-700 mb-4 text-justify">
+      <h2 className="text-l font-semibold mb-4 text-gray-600">Outcall service</h2>
+      <p className="text-gray-500 mb-4 text-justify text-sm">
       After an escort agent posts an ad, say, you clicked through to communicate with 
       someone that attracts you. You then ask if she would like to come over. If she s
       ays yes, then you are the host, and she’s rendering an out-call service.
 
       </p>
       
-      <h2 className="text-l font-semibold mb-4">Incall service</h2>
-      <p className="text-gray-700 mb-4 text-justify">
+      <h2 className="text-l font-semibold mb-4 text-gray-600">Incall service</h2>
+      <p className="text-gray-500 mb-4 text-justify text-sm">
       It’s the other way round here. Your companion may feel the need to stay in his/her location 
       because of some reason. Hence, you have no other option than to do the visiting. It may be a 
       bar, hotel, lounge, or amusement park. If your consort 
       decides the location, and you have to go over to her side, it’s called an incall service.
       </p>
       
-      <h2 className="text-l font-semibold mb-4">Specialties</h2>
-      <p className="text-gray-700 mb-4 text-justify">
+      <h2 className="text-l font-semibold mb-4 text-gray-600">Specialties</h2>
+      <p className="text-gray-500 mb-4 text-justify text-sm">
         It is essential to know how this works. Who knows what your expectations are?
         Maybe you need a companion just to talk things out and ease the burden in your mind.
         Or perhaps, you’re looking to meet new friends — local ads can help know residents around your region.
       </p>
-      <p className="text-gray-700 mb-4 text-justify">
+      <p className="text-gray-500 mb-4 text-justify text-sm">
         If at all you want to spend quality time with your company, you need not worry.
         Our website helps in the following areas:
       </p>
-      <ul className="list-disc list-inside text-gray-700 text-justify">
+      <ul className="list-disc list-inside text-gray-500 text-justify text-sm">
         <li>Maintaining interpersonal relationships with clients.</li>
         <li>Surfing and acquiring useful information for emergency use.</li>
         <li>Communicating with external individuals, people outside the organization.
@@ -420,13 +421,13 @@ const Hero = () => {
             is using what works and eliminating what doesn’t. We will continue to maintain
             the same approach towards an appointment.</li>
       </ul>
-      <h2 className="text-l font-semibold mb-4">What are the traits to find in display ads?</h2>
-      <p className="text-gray-700 mb-4 text-justify">
+      <h2 className="text-l font-semibold mb-2 text-gray-600">What are the traits to find in display ads?</h2>
+      <p className="text-gray-500 mb-2 text-justify text-sm">
       A lot, to be precise. Here at EscortsAffair, you don’t just find random peers to match. 
       Here are the traits to expect:
 
       </p>
-      <ul className="list-disc list-inside text-gray-700 text-justify">
+      <ul className="list-disc list-inside text-gray-500 text-justify text-sm">
         <li>Clarity: Be sure to converse clearly with any of our assigned escorts.</li>
         <li>Oral expression: Get a sense of feeling when receiving a response from the peered personnel.</li>
         <li>Oral comprehension: this is one skill every escort must have — the ability to collect and 
@@ -444,20 +445,18 @@ const Hero = () => {
         </li>
       </ul>
 
-      <p className="text-gray-700 mb-4">
-        Website functions
-      </p>
-      <p className="text-gray-700 mb-4 text-justify">
+      
+      <p className="text-gray-500 mb-4 text-justify text-sm">
+      Website functions <br />
       This site allows agents to post photos and videos of young and mostly independent
        individuals looking to socialize. No doubt, people need companionship. Some go through 
        depression; others need advice or someone for an event. This platform created spaces for 
        different categories, depending on the type of escort you want.
 
       </p>
-      <p className="text-gray-700 mb-4">
-      Conclusion
-      </p>
-      <p className="text-gray-700 mb-4 text-justify">
+    
+      <p className="text-gray-500 mb-4 text-justify text-sm">
+      Conclusion <br />
       EscortsAffair remains a top-notch escort directory, and it offers tons of satisfactory services. 
       Companionship can never go sideways with us. Look in our list of local ads to select your preference. Guess what? 
       You have hundreds of them to choose from, so choose your favorite while they are available.
