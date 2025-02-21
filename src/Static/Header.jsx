@@ -27,11 +27,11 @@ const Header = () => {
 
         {/* Right side navigation */}
         <div className="flex  flex-col-reverse md:flex-row items-center gap-7 mt-14 lg:gap-4 lg:mt-2">
-          <button href="/adult-seo" className=" border-b text-[0.73rem] text-pink-600 hover:text-pink-700 md:w-auto lg:text-[0.8rem]">
-            Adult SEO
+          <button className=" border-b text-[0.73rem] text-pink-600 hover:text-amber-300 md:w-auto lg:text-[0.8rem]">
+           <a href="https://www.escortsaffair.com/centre/adultseo"> Adult SEO</a>
           </button>
-          <button variant="default" className="bg-[#C71585] hover:bg-blue-700 p-2 text-[#fff] text-sm rounded-[4px] md:w-auto lg:p-2 md:p-2">
-            Post
+          <button href="https://www.escortsaffair.com/centre/logi" variant="default" className="bg-[#C71585] hover:bg-blue-700 p-2 text-[#fff] text-sm rounded-[4px] md:w-auto lg:p-2 md:p-2">
+           <a href="https://www.escortsaffair.com/centre/login">Post</a>
           </button>
         </div>
       </div>
