@@ -5,33 +5,35 @@ const Hero = () => {
     <div div className="min-h-screen  bg-white">
        
          {/* Main Content */}
-      <main className="max-w-6xl container mx-auto px-4 py-6 md:py-8 mt-[-30px]">
-      <h1 className="text-[1.3rem] text-extrabold">Escorts Affair Management</h1>
+      <main className="max-w-6xl container mx-auto px-4 py-6 md:py-8 mt-[28px]">
+      <h1 className="text-[1.2rem] font-semibold">Escorts Affair Management</h1>
           {/* Procedure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
+            <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem] font-semibold text-white pl-3">
             How to get a secured meeting number for an escort
             </h2>
-            <div className="space-y-4 px-4">
-              <h3 className="font-semibold">Procedure to get meeting number</h3>
-              <ul className="list-inside list-disc space-y-2 text-gray-700 text-justify font-[10px]">
+            <div className="space-y-2 px-1">
+              <h3 className="font-semibold mt-[-10px] text-sm">Procedure to get meeting number</h3>
+              <ul className="list-inside list-disc space-y-2 text-gray-700 text-justify font-sm text-sm ml-3">
                 <li >Click on the chat icon below to start a chat with our live agent</li>
                 <li>Get your email verified by our chat agent</li>
-                <li>Provide the email address so it can be verified by agent</li>
+                <li>Provide the escorts email address so the escort can be verified by agent</li>
                 <li>Get a secured booking number from our live chat agent</li>
-                <li>Provide the reference number sent to your email, this will be used to verify your payment</li>
+                <li>Provide the escort only with the reference number sent to your email, this will be used by the escort to verify your payment.</li>
               </ul>
             </div>
           </section>
 
           {/* Note Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">Note</h2>
+            <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem] font-semibold text-white pl-3">Note</h2>
             <div className="space-y-2 px-4 text-gray-700">
-              <ul className="list-inside list-disc space-y-2 text-justify">
-                <li>Payment is refundable if service isn't rendered</li>
-                <li>Payment is received after service</li>
-                <li>Do not share meeting number till after service has been rendered</li>
+              <ul className="list-inside list-disc space-y-2 text-justify text-sm ml-3">
+                <li>Payment is refundable if escort doesn’t render service
+                </li>
+                <li>Escort receive payment after service</li>
+                <li>Do not share meeting number till after service has been rendered
+                </li>
                 <li>To place complain chat with our live agent or contact us through email</li>
               </ul>
             </div>
@@ -39,87 +41,88 @@ const Hero = () => {
 
           {/* Collection Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
+            <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem] font-semibold text-white pl-3">
               Collection and Use of Personal Information
             </h2>
             <div className="space-y-4 px-4 text-gray-700 text-justify">
-              <p className="leading-relaxed">
-                We collect personal information regarding you when you engage in commerce transactions on the Site,
-                utilize the Site's products or services, request information or materials, create or update account
-                information, place orders or make purchases, communicate around, or visit the Site. The private
-                information we collect and store about you might include without limitation your first and last name,
-                current email address, credit or debit card number, telephone numbers, billing and shipping information,
-                order history, and other non-public information regarding you.
+              <p className="leading-relaxed text-sm">
+              We collect personal information regarding you when you engage in 
+              commerce transactions on the Site, utilize the Site's products or services, 
+              request information or materials, create or update account information, 
+              place orders or make purchases, communicate around, or visit the Site. 
+              The private information we collect and store about you might include without 
+              limitation your first and last name, current email address, credit or debit 
+              card number, telephone numbers, billing and shipping 
+              information, order history, and other non-public information regarding you..
+               <br />
+              We may use the information we collect to:
               </p>
-              <h3 className="font-semibold pt-4">We may use the information we collect to:</h3>
-              <ul className="list-inside list-disc space-y-2">
-                <li>Provide superior services</li>
-                <li>Stop you apprised of information and developments that you might find of interest</li>
-                <li>Alert one to new features, terms, content, products or services</li>
-                <li>Contact you relating to your posts, replies, and/or account information</li>
-                <li>Process and react to your inquires</li>
-                <li>Improve the Site</li>
-                <li>
-                  Administer, monitor and control utilization of the Site, including posts, replies, and account
-                  information
+              <ul className="list-inside list-disc space-y-2 text-sm">
+                <li>Provide superior services;</li>
+                <li>Stop you apprised of information and developments that you might find of interest;</li>
+                <li>Alert one to new features, terms, content, products or services;</li>
+                <li>Contact you relating to your posts, replies, and/or account information;
                 </li>
-                <li>Enforce the Terms of Use (collectively, the "Activities")</li>
+                <li>Process and react to your inquires;</li>
+                <li>Improve the Site;</li>
+                <li>
+                Administer, monitor and control utilization of the Site, including posts, replies, and account information; and
+                </li>
+                <li>Enforce the <span className="text-blue-500 hover:text-amber-300"><a href="https://escortsaffairsmanagement.com/terms.html">Terms of Use</a></span> (collectively, the "Activities").
+                </li>
               </ul>
-              <p className="leading-relaxed text-justify">You authorize the Site to transmit email to you to react to your communications and administer Activities. If you select to receive mobile notifications, you authorize and agree totally that the Site may send texting to your 
-                cellular phone, and you will result in any message or data charges that'll apply..</p>
+              <p className="leading-relaxed text-justify text-sm">You authorize the Site to 
+                transmit email to you to react to your communications and administer 
+                Activities. If you select to receive mobile notifications, you authorize 
+                and agree totally that the Site may send texting to your cellular phone, 
+                and you will result in any message or data charges that'll apply..</p>
             </div>
           </section>
 
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
+            <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem] font-semibold text-white pl-3">
               Disclosure of Personal Information to Third Parties
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed text-justify">
-              We may disclose your individual information to agents and operators under confidentiality or 
-              similar agreements, including shippers, vendors, payment processors, and advertisers, who we 
-              believe reasonably need ahead into contact with this information: (i) to offer products or 
-              services to you; (ii) to administer our business or the Site, including fulfilling and 
-              shipping orders; (iii) to offer customer service; (iv) to update account information; 
-              (v) to forward updates, announcements, and newsletters; (vi) to react to your communications, 
-              and communicate with you in regards to the Site and alternative activities related to the Site;
-               (vii) in the event of any reorganization, merger, sale, joint venture, assignment, transfer or 
-               disposition of or any percentage of the Site's business or operations (including without 
-               limitation in experience of bankruptcy or any similar proceedings); 
-              or (viii) as otherwise authorized by you.
+              <p className="leading-relaxed text-justify text-sm">
+              We may disclose your individual information to agents and operators 
+              under confidentiality or similar agreements, including shippers, vendors, 
+              payment processors, and advertisers, who we believe reasonably need ahead 
+              into contact with this information: (i) to offer products or services to you; 
+              (ii) to administer our business or the Site, including fulfilling and shipping 
+              orders; (iii) to offer customer service; (iv) to update account information; (v) to forward updates, announcements, and newsletters; (vi) to react to your communications, and communicate with you in regards to the Site and alternative activities related to the Site; (vii) in the event of any reorganization, merger, sale, joint venture, assignment, transfer or disposition of or any percentage of the Site's business or operations (including without limitation in experience of bankruptcy or 
+              any similar proceedings); or (viii) as otherwise authorized by you.
               </p>
             </div>
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
+            <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem] font-semibold text-white pl-3">
             Disclosure in Other Circumstances
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed text-justify">
-              We might also disclose your name, email address, 
-              telephone numbers, or other information regarding you, 
-              including personal information if (i) required to take action by law, 
-              court order or subpoena, or as requested by other government, police, or 
-              investigative authority, (ii) we in good faith feel that such disclosure is 
-              essential or advisable, including without limitation to guard the rights or 
-              properties of the Site, (iii) we've reason to think that disclosing your own 
-              personal information is essential to recognize, contact or bring legal action 
-              against someone who may be causing interference with your rights or properties, 
-              or has breached an agreement, or if other people could be harmed by such activities 
-              or interference, (iv) when we determine an offer posted violates our Terms of Use or 
-              the rights of an alternative party, or (v) there is an emergency involving personal 
-              danger. We might provide information regarding you when we believe it is necessary 
-              to generally share information in order to investigate, prevent or take action 
-              regarding illegal activities, suspected fraud, situations involving potential 
-              threats to the physical safety of any person, or as otherwise required or permitted 
-              by law.
+              <p className="leading-relaxed text-justify text-sm">
+              We might also disclose your name, email address, telephone numbers, 
+              or other information regarding you, including personal information if 
+              (i) required to take action by law, court order or subpoena, 
+              or as requested by other government, police, or investigative authority, 
+              (ii) we in good faith feel that such disclosure is essential or advisable, 
+              including without limitation to guard the rights or properties of the Site, 
+              (iii) we've reason to think that disclosing your own personal information is 
+              essential to recognize, contact or bring legal action against someone who may 
+              be causing interference with your rights or properties, or has breached an 
+              agreement, or if other people could be harmed by such activities or 
+              interference, (iv) when we determine an offer posted violates our Terms 
+              of Use or the rights of an alternative party, or (v) there is an emergency 
+              involving personal danger. We might provide information regarding you when 
+              we believe it is necessary to generally share information in order to 
+              investigate, prevent or take action regarding illegal activities, suspected 
+              fraud, situations involving potential threats to the physical safety of any 
+              person, or as otherwise required or permitted by law.
 
-              Please note that should you post any of your personal information on the Site, 
-              such information may be collected and employed by others over whom the Site does 
-              not have any control. The Site is not in charge of the employment by third parties of 
-              information you post or elsewhere make public.
+                Please note that should you post any of your personal information on the Site, such 
+                information may be collected and employed by others over whom the Site does not have any control. The Site is not in charge of the employment by third parties of information you post or elsewhere make public.
 
 
               </p>
@@ -127,56 +130,50 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
+            <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem] font-semibold text-white pl-3">
             Assortment of Non-Personal Information Using Cookies
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed text-justify">
-              We and certain service providers operating on our behalf collect information 
-              regarding your activity on our Site using tracking technologies such as for 
-              instance cookies. This tracking data is employed for many purposes, including, 
-              for instance, to (i) deliver relevant content based in your preferences, usage 
-               and location; (ii) monitor and evaluate the employment and operation of our Site;
-                and (iii) analyze traffic on our Site and on the sites of third parties.
+              <p className="leading-relaxed text-justify text-sm">
+              We and certain service providers operating on our behalf collect 
+              information regarding your activity on our Site using tracking 
+              technologies such as for instance cookies. This tracking data is 
+              employed for many purposes, including, for instance, to (i) deliver 
+              relevant content based in your preferences, usage patterns and 
+              location; (ii) monitor and evaluate the employment and operation of 
+              our Site; and (iii) analyze traffic on our Site and on the sites of 
+              third parties.
 
-                Non-personal information collected includes, without limitation, your Internet Protocol ("IP") 
-                address, the pages you request, the kind of computer operating system you employ 
-                (e.g., Microsoft Windows or Mac OS), the kind of browser you employ (e.g., Firefox, Chrome or 
-                Internet Explorer), the domain name of the Internet service provider, your activities while 
-                visiting the Site and the content you accessed. We might also collect your geolocation information 
-                once you visit our Site, including location information either provided by way of a mobile device 
-                interacting with your Site, or associated with your IP address, where we're permitted by law to 
-                process this information.
+               Non-personal information collected includes, without limitation, your Internet 
+               Protocol ("IP") address, the pages you request, the kind of computer operating 
+               system you employ (e.g., Microsoft Windows or Mac OS), the kind of browser you 
+               employ (e.g., Firefox, Chrome or Internet Explorer), the domain name of the 
+               Internet service provider, your activities while visiting the Site and the content 
+               you accessed. We might also collect your geolocation information once you visit our 
+               Site, including location information either provided by way of a mobile device interacting with your Site, or associated with your IP address, where we're permitted by law to process this information.
 
-                Advertisers and third parties also may collect information regarding your activity 
-                on our Site and on third-party sites and applications using tracking technologies. 
-                Tracking data collected by these advertisers and third parties is employed to 
-                decide which ads you see on third-party sites and applications, but does not 
-                identify you personally. You might choose not for targeted advertising from 
-                many ad networks, data exchanges, marketing analytics and other service providers. 
-                You may also choose to manage targeted advertising you obtain within applications 
-                by utilizing your mobile device settings (for example, by re-setting your device's advertising identifier and/or opting out of interest based ads). We stick to the Digital 
-                Advertising Alliance's Self-Regulatory Principles for Online Behavioral Advertising.
+                Advertisers and third parties also may collect information regarding your activity on our Site and on third-party sites and applications using tracking technologies. Tracking data collected by these advertisers and third parties is employed to decide which ads you see on third-party sites and applications, but does not identify you personally. You might choose not for targeted advertising from many ad networks, data exchanges, marketing analytics and other service providers. You may also choose to manage targeted advertising you obtain within applications by utilizing your mobile device settings (for example, by re-setting your device's advertising identifier and/or opting out of interest based ads). We stick to the Digital Advertising 
+                Alliance's Self-Regulatory Principles for Online Behavioral Advertising.
               </p>
             </div>
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
+            <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem] font-semibold text-white pl-3">
             Communication from the Site/Opt-Out
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed text-justify">
-              From time to time, we might send you information with announcements and 
-              updates in regards to the Site and your account. You might elect to opt-out 
-              of ongoing e-mail communication from us, such as for instance newsletters, 
-              subscriptions, account information, promotional materials, contest results, 
-              survey inquiries, etc. with a simple "opt out" procedure. You'll need only answer 
-              the communication with the phrase "unsubscribe" (without the quotation marks) 
-              within the body of your e-mail response and your name will be removed from that 
-              mailing list. However, in the event that you opt-out of receiving our announcements 
-              and updates about your account, you could no longer have use of areas restricted to 
-              account members.
+              <p className="leading-relaxed text-justify text-sm">
+              From time to time, we might send you information with announcements 
+              and updates in regards to the Site and your account. You might elect to 
+              opt-out of ongoing e-mail communication from us, such as for instance 
+              newsletters, subscriptions, account information, promotional materials, 
+              contest results, survey inquiries, etc. with a simple "opt out" procedure. 
+              You'll need only answer the communication with the phrase "unsubscribe" 
+              (without the quotation marks) within the body of your e-mail response and 
+              your name will be removed from that mailing list. However, in the event that 
+              you opt-out of receiving our announcements and updates about your
+               account, you could no longer have use of areas restricted to account members.
 
 
               </p>
@@ -184,93 +181,109 @@ const Hero = () => {
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
+            <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem] font-semibold text-white pl-3">
             Correction/Update of Personal Information
             </h2>
-            <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed text-justify">
-              If your own personal information changes, you could review/correct/update your own personal 
-              information previously provided at any time by sending us a message at 
-              admin@EscortsAffair.ch.You may also have your own personal profile data deleted from our 
-              database by sending us a message to admin@EscortsAffair.ch.However, when you have your own 
-              personal profile data deleted from our database, you could forfeit 
-              entrance rights to areas restricted to account members and certain benefits for 
-              account members.
+            <div className="space-y-2 px-4 text-gray-700">
+              <p className="leading-relaxed text-justify text-sm">
+              If your own personal information changes, you could review/correct/update 
+              your own personal information previously provided at any time by sending us 
+              a message at <span className="text-blue-500 hover:text-amber-300"><a href="">admin@EscortsAffair.ch</a></span>.
+              You may also have your own personal 
+              profile data deleted from our database by sending us a message to 
+               <br /><span className="text-blue-500 hover:text-amber-300"><a href="">admin@EscortsAffair.ch</a></span>.However, when you have your own personal profile 
+              data deleted from our database, you could forfeit entrance rights to areas 
+              restricted to account members and certain benefits for account members.
               </p>
             </div>
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
+            <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem] font-semibold text-white pl-3">
             Contact Us:
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed">
-              Email: Contact us
+              <p className="leading-relaxed text-sm">
+              Email:<span className="text-blue-500 hover:text-amber-300"><a href="https://escortsaffairsmanagement.com/contact.html">Contact us</a></span>
               </p>
             </div>
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
+            <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem] font-semibold text-white pl-3">
             Children
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed text-justify">
-              The Site is not intended for children under the age of 13 nor does the Site knowingly 
-              collect personal information from children under 13. The Site doesn't orient this Site 
-              toward children or target them as an audience, nor does it screen them from utilising the 
-              Site. Some of the material with this Site is for mature audiences, and parents and guardians 
-              should take responsibility for monitoring their children's use. The Site doesn't 
-              collect or distribute information indicating whether a consumer is really a child.
+              <p className="leading-relaxed text-justify text-sm">
+              The Site is not intended for children under the age of 13 nor does the Site 
+              knowingly collect personal information from children under 13. 
+              The Site doesn't orient this Site toward children or target them as 
+              an audience, nor does it screen them from utilising the Site. Some of 
+              the material with this Site is for mature audiences, and parents and 
+              guardians should take responsibility for monitoring their children's use. 
+              The Site doesn't collect 
+              or distribute information indicating whether a consumer is really a child.
               </p>
             </div>
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
+            <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem] font-semibold text-white pl-3">
             Links to Other sites
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed text-justify">
-              This Site provides links and pointers to The websites maintained by other organizations. 
-               Site provides these links as a convenience to users, but it doesn't operate, control or 
-               endorse such sites. The Site also disclaims any responsibility for the info on those sites 
-               and any products or services offered there, and cannot attest to the privacy policies of such sites. The Site doesn't make any warranties or representations that any linked sites (or even this Site) will function without error or interruption, that defects is likely to be corrected, or that the sites and 
-              their servers are free of viruses and other problems that can harm your computer.
+              <p className="leading-relaxed text-justify text-sm">
+              This Site provides links and pointers to The websites maintained by 
+              other organizations. The Site provides these links as a convenience 
+              to users, but it doesn't operate, control or endorse such sites. 
+              The Site also disclaims any responsibility for the info on those 
+              sites and any products or services offered there, and cannot attest 
+              to the privacy policies of such sites. The Site doesn't make any 
+              warranties or representations that any linked sites 
+              (or even this Site) will function without error or interruption, 
+              that defects is likely to be corrected, or that the sites and their 
+              servers are free of viruses and other problems that can harm your 
+              computer.
+
+
               </p>
             </div>
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem] font-semibold text-white pl-3">
+            <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem] font-semibold text-white pl-3">
             E-Commerce and Our Secure Server
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed text-justify">
-              We recognize that storing data in a safe manner is important. We store personal information 
-              using industry standard, reasonable and technically feasible, physical, technical and 
-              administrative safeguards against foreseeable risks, such as for example unauthorized access. 
-              All commerce transactions that take put on the Site are processed through our secure server 
-              in order to make every reasonable effort to insure that your personal information is protected.
+              <p className="leading-relaxed text-justify text-sm">
+              We recognize that storing data in a safe manner is important. 
+              We store personal information using industry standard, reasonable 
+              and technically feasible, physical, technical and administrative 
+              safeguards against foreseeable risks, such as for example unauthorized access. 
+              All commerce transactions that take put on the Site are processed through 
+              our secure server in order to make every reasonable effort to insure that 
+              your personal information is protected.
 
-              Please know that the Site and data storage are run using software, hardware and networks, any component of 
-            which can, from time to time, require maintenance or experience problems or breaches of security beyond the 
-             Site's control. We cannot guarantee the security of the info on and sent from the Site.
+              Please know that the Site and data storage are run using software, 
+              hardware and networks, any component of which can, from time to time, require 
+              maintenance or experience problems or breaches of security beyond the Site's 
+              control. We cannot guarantee the security of the info on and sent from the Site.
 
-             On our Site, you could have the chance to follow along with a link to other sites that could be of interest to you. 
-            We are not in charge of the privacy practices of the sites or this content provided thereon. We disclaim any 
-             responsibility for transactions conducted on those sites and cannot attest to the security of the info submitted in those transactions.
+               On our Site, you could have the chance to follow along with a link to other 
+               sites that could be of interest to you. We are not in charge of the privacy 
+               practices of the sites or this content provided thereon. We disclaim any 
+               responsibility for transactions conducted on those sites and cannot attest to 
+               the security of the info submitted in those transactions.
               </p>
             </div>
           </section>
           {/* Disclosure Section */}
           <section className="mb-8">
-            <h2 className="mb-4 rounded-md bg-[#db7093] p-0.5 text-[1rem]g font-semibold text-white pl-3">
+            <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem]g font-semibold text-white pl-3">
             Policy Changes and Acceptance
             </h2>
             <div className="space-y-4 px-4 text-gray-700">
-              <p className="leading-relaxed text-justify">
+              <p className="leading-relaxed text-justify text-sm">
               The Privacy Policy might be revised from time to time as we add new features and services, as laws change, 
               and as industry privacy and security best practices evolve. We display a highly effective date 
               on top of the left corner of the Privacy Policy so that it is likely to be easier for you 

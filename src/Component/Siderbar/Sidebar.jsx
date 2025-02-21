@@ -1,4 +1,5 @@
 import './Siderbar.css'
+import {Link } from "react-router-dom"
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
@@ -22,13 +23,19 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       </button>
       <div className="p-6 space-y-4">
         <button className="w-full bg-pink-600 text-white py-2 rounded">
-          Post Ad
+          <a href="https://www.escortsaffair.com/centre/login" target="_blank" rel="noopener noreferrer">Post Ad</a>
         </button>
-        <ul className="">
-          <li className="p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b ">Home</li>
-          <li className="p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b">Login</li>
-          <li className="p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b">Sign Up</li>
-        </ul>
+         <ul>
+      <li className=" w-full p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b text-center">
+        <a href="https://www.escortsaffair.com/" target="_blank" rel="noopener noreferrer " className=' hover:text-orange-300'>Home</a>
+      </li>
+      <li className="w-full p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b text-center">
+        <a href="https://www.escortsaffair.com/centre/login" target="_blank" rel="noopener noreferrer" className=' hover:border-b'>Login</a>
+      </li>
+      <li className="w-full p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b text-center">
+        <a href="https://www.escortsaffair.com/centre/registrations" target="_blank" rel="noopener noreferrer" className='  hover:border-b'>Sign Up</a>
+      </li>
+    </ul>
       </div>
     </div>
   </div>
