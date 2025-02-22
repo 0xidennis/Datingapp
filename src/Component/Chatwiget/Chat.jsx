@@ -88,6 +88,10 @@ const Chat = () => {
       <button onClick={handleClick} variant="ghost" size="icon">
         <Paperclip className="h-5 w-5 text-gray-500" />
       </button>
+      {/* <span className="absolute left-1/2 -translate-x-1/2 top-10 opacity-0 group-hover:opacity-100 bg-gray-700 text-white text-xs rounded px-2 py-1 transition-opacity">
+          Attach File
+        </span> */}
+        
 
       {/* Hidden file input */}
       <input 
@@ -96,6 +100,7 @@ const Chat = () => {
         className="hidden" 
         accept="image/*" // Limits selection to images
       />
+     
 
 <button className="p-2  text-[green] rounded hover:bg-blue-600" aria-label="Send message">
   <IoSend className="h-5 w-5" />
