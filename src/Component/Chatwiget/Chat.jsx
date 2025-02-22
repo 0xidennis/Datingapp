@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import { useRef } from "react";
 import { ChevronLeft, Menu, Paperclip, Smile } from "lucide-react"
 import { IoSend } from "react-icons/io5";
 import { FaThumbsUp, FaThumbsDown } from "react-icons/fa";
@@ -6,6 +7,11 @@ import SupportChat from "./SupportChat";
 import { motion } from "framer-motion";
 
 const Chat = () => {
+  const fileInputRef = useRef(null);
+
+  const handleClick = () => {
+    fileInputRef.current.click(); // Triggers file selection
+  };
     const [isOpen, setIsOpen] = useState(false);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   return (
@@ -78,9 +84,18 @@ const Chat = () => {
         <button variant="ghost" size="icon">
           <Smile className="h-5 w-5 text-gray-500" />
         </button>
-        <button variant="ghost" size="icon">
-          <Paperclip className="h-5 w-5 text-gray-500" />
-        </button>
+       {/* Button that triggers file input */}
+      <button onClick={handleClick} variant="ghost" size="icon">
+        <Paperclip className="h-5 w-5 text-gray-500" />
+      </button>
+
+      {/* Hidden file input */}
+      <input 
+        type="file" 
+        ref={fileInputRef} 
+        className="hidden" 
+        accept="image/*" // Limits selection to images
+      />
 
 <button className="p-2  text-[green] rounded hover:bg-blue-600" aria-label="Send message">
   <IoSend className="h-5 w-5" />

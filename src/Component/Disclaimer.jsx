@@ -25,6 +25,13 @@ const Disclaimer = () => {
     <div className="fixed inset-0 flex items-center justify-center bg-[gray] bg-opacity-50">
     <div className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full">
       <h2 className="text-lg font-semibold mb-4">Disclaimer</h2>
+      <p className="text-sm text-gray-700">This website contains nudity, explicit sexual content and adult language. 
+        It should be accessed only by people who are of legal age in the physical 
+        location from where you are accessing the site. By accessing this website, 
+        you are representing to us that you are of legal age and agree to our Terms & Conditions. Any unauthorized use of this site may violate state, federal and/or foreign law.
+
+        EscortsAffair has a zero-tolerance policy toward human trafficking, prostitution, and any other illegal conduct. We cooperate with law enforcement, pursuant to appropriate process, such as a subpoena, in investigating criminal activity. Activity that violates our zero-tolerance policy may result in a referral to law enforcement. I have no intention to, and will not, use this site in violation of EscortsAffair’s policies or any federal, 
+       state, or local law, and I agree to report violations to the appropriate authorities.</p>
       <p className="text-sm text-gray-700">
         I also agree to{" "}
         <a href="#" className="text-red-600 hover:underline">
