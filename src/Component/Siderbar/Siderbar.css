@@ -1,0 +1,18 @@
+.z-index{
+    z-index: 2;
+    background-color: #ffff;
+}
+.side{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.home{
+    border-top: 1px solid rgb(165, 165, 165);
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+.sign{
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+.up{
+    border-bottom: 1px solid rgb(165, 165, 165);
+}

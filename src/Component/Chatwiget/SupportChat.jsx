@@ -1,6 +1,7 @@
 import React from 'react'
 import { MessageSquare, Search } from "lucide-react"
 import { IoSend } from "react-icons/io5";
+import './Chat.css'
 
 const SupportChat = () => {
   return (
@@ -10,7 +11,7 @@ const SupportChat = () => {
       <p className="text-sm mt-1">Need help? Search our help center for answers or start a conversation</p>
     </div>
 
-    <div className="p-4 space-y-4">
+    <div className="p-4 space-y-4 support ">
       <div className="space-y-3">
         <h3 className="font-medium">Conversations</h3>
 
@@ -47,7 +48,7 @@ const SupportChat = () => {
       </div>
 
       <button className="w-full bg-emerald-500 hover:bg-emerald-600 items-center justify-center text-center">
-        <IoSend className="w-4 h-4 ml-6 " />
+        {/* <IoSend className="w-4 h-4 ml-6 " /> */}
         New Conversation
       </button>
     </div>

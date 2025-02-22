@@ -4,13 +4,13 @@ import {Link } from "react-router-dom"
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
     <div
-    className={`fixed  inset-0 bg-[#242323] bg-opacity-50 transition-opacity ${
+    className={`side fixed  inset-0 bg-[#383838] bg-opacity-50 transition-opacity ${
       isOpen ? "opacity-90 visible " : "opacity-0 invisible"
     }`}
     onClick={toggleSidebar}
   >
     <div
-      className={`fixed left-0 top-0 h-full w-64 bg-[#ffff] bg-opacity-100 shadow-lg transform  z-[500]${
+      className={`z-index fixed left-0 top-0 h-full w-64  bg-opacity-50 shadow-lg transform  ${
         isOpen ? " opacity-100 translate-x-0 " : "-translate-x-full"
       } transition-transform`}
       onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside
@@ -26,13 +26,13 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           <a href="https://www.escortsaffair.com/centre/login" target="_blank" rel="noopener noreferrer">Post Ad</a>
         </button>
          <ul>
-      <li className=" w-full p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b text-center">
+      <li className=" home w-full p-2 align-center text-b justify-center hover:bg-gray-200 cursor-pointer bg-[#dfe2e6]  text-center">
         <a href="https://www.escortsaffair.com/" target="_blank" rel="noopener noreferrer " className=' hover:text-amber-300'>Home</a>
       </li>
-      <li className="w-full p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b text-center">
+      <li className=" sign w-full p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6]  text-center">
         <a href="https://www.escortsaffair.com/centre/login" target="_blank" rel="noopener noreferrer" className=' hover:text-amber-300'>Login</a>
       </li>
-      <li className="w-full p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b text-center">
+      <li className=" up w-full p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6]  text-center">
         <a href="https://www.escortsaffair.com/centre/registrations" target="_blank" rel="noopener noreferrer" className='  hover:text-amber-300'>Sign Up</a>
       </li>
     </ul>
