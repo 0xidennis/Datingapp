@@ -1,4 +1,4 @@
-
+import './Hero.css'
 
 const Hero = () => {
   return (
@@ -13,8 +13,8 @@ const Hero = () => {
             How to get a secured meeting number for an escort
             </h2>
             <div className="space-y-2 px-1">
-              <h3 className="font-semibold mt-[-10px] text-sm">Procedure to get meeting number</h3>
-              <ul className="list-inside list-disc space-y-2 text-gray-700 text-justify font-sm text-sm ml-3">
+              <h3 className="font-semibold mt-[4px] text-sm">Procedure to get meeting number</h3>
+              <ul className="list-square  space-y-2 text-gray-700 text-justify font-sm text-sm ml-3">
                 <li >Click on the chat icon below to start a chat with our live agent</li>
                 <li>Get your email verified by our chat agent</li>
                 <li>Provide the escorts email address so the escort can be verified by agent</li>
@@ -28,7 +28,7 @@ const Hero = () => {
           <section className="mb-8">
             <h2 className="mb-2 rounded-md bg-[#db7093] p-0.5 text-[0.9rem] font-semibold text-white pl-3">Note</h2>
             <div className="space-y-2 px-4 text-gray-700">
-              <ul className="list-inside list-disc space-y-2 text-justify text-sm ml-3">
+              <ul className="list-square space-y-2 text-justify text-sm ml-3">
                 <li>Payment is refundable if escort doesn’t render service
                 </li>
                 <li>Escort receive payment after service</li>
@@ -57,7 +57,7 @@ const Hero = () => {
                <br />
               We may use the information we collect to:
               </p>
-              <ul className="list-inside list-disc space-y-2 text-sm">
+              <ul className="list-square space-y-2 text-sm">
                 <li>Provide superior services;</li>
                 <li>Stop you apprised of information and developments that you might find of interest;</li>
                 <li>Alert one to new features, terms, content, products or services;</li>

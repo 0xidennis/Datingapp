@@ -27,13 +27,13 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         </button>
          <ul>
       <li className=" w-full p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b text-center">
-        <a href="https://www.escortsaffair.com/" target="_blank" rel="noopener noreferrer " className=' hover:text-orange-300'>Home</a>
+        <a href="https://www.escortsaffair.com/" target="_blank" rel="noopener noreferrer " className=' hover:text-amber-300'>Home</a>
       </li>
       <li className="w-full p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b text-center">
-        <a href="https://www.escortsaffair.com/centre/login" target="_blank" rel="noopener noreferrer" className=' hover:border-b'>Login</a>
+        <a href="https://www.escortsaffair.com/centre/login" target="_blank" rel="noopener noreferrer" className=' hover:text-amber-300'>Login</a>
       </li>
       <li className="w-full p-2 hover:bg-gray-200 cursor-pointer bg-[#dfe2e6] border-b text-center">
-        <a href="https://www.escortsaffair.com/centre/registrations" target="_blank" rel="noopener noreferrer" className='  hover:border-b'>Sign Up</a>
+        <a href="https://www.escortsaffair.com/centre/registrations" target="_blank" rel="noopener noreferrer" className='  hover:text-amber-300'>Sign Up</a>
       </li>
     </ul>
       </div>
