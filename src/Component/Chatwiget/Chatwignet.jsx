@@ -16,20 +16,23 @@ const Chatwignet = () => {
 
 
   return (
-    <div className="fixed bottom-4 right-4 flex flex-col items-end gap-4">
-  {isOpen && (
-    <div className="w-[350px] rounded-lg bg-white shadow-lg">
-      <Chat/>
-    </div>
-  )}
+//     <div className="fixed bottom-4 right-4 flex flex-col items-end gap-4">
+//   {isOpen && (
+//     <div className="w-[350px] rounded-lg bg-white shadow-lg">
+//       <Chat/>
+//     </div>
+//   )}
 
-  <button
-    onClick={() => setIsOpen(!isOpen)}
-    className="rounded-full bg-emerald-500 px-4 py-2 text-white shadow-lg"
-  >
-    <span className="mr-2"></span>
+//   <button
+//     onClick={() => setIsOpen(!isOpen)}
+//     className="rounded-full bg-emerald-500 px-4 py-2 text-white shadow-lg"
+//   >
+//     <span className="mr-2"></span>
 
-  </button>
+//   </button>
+// </div>
+<div>
+  
 </div>
   )
 }
